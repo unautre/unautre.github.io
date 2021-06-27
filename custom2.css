@@ -17,7 +17,14 @@
     border: solid blue 2px;
 }
 
+.redacted {
+    color: black;
+    background-color: black;
+    content: "[redacted]";
+}
+
 .circlecontainer {
+    position: fixed;
     width: 200px;
     height: 200px;
     float: right;
