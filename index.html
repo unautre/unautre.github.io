@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="sp.css">
-        <!-- <link rel="stylesheet" href="custom2.css"> -->
+        <link rel="stylesheet" href="custom2.css">
     </head>
     <body>
         <div class="title">
             <h1 class="glitch" data-text="Hello,">Hello,</h1>
         </div>
-        <h2 class="glitch2">Is it me you're looking for ?</h2>
-        <p>I am Dylan. I sometimes write code.</p>
+        <h2 class="glitch2">Is it me you're <span class="spanRotate">looking</span> for ?</h2>
+        <div class="circlecontainer">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+        </div>
+        <p>I am <span role="img" aria-label="a geek">👨‍💻</span>. I sometimes write code.</p>
         <p>My interests are the followings:</p>
         <ul>
-            <li>Java, especially:
+            <li>Software engineering, especially:
                 <ul>
+                    <li>Programming languages: <code>Java</code>, <code>Python</code>, <code>Go</code>...</li>
                     <li>Software architecture: microservices, hexagonal architecture...</li>
                     <li>The Big Data ecosystem (HDFS, Spark)</li>
                     <li>Databases, especially NoSQL (Accumulo, MongoDB, ElasticSearch)</li>
