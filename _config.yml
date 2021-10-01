@@ -21,7 +21,6 @@
 title: Bandar's Log
 email: contact@bandar-log.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Bandar's Log
   Technical blog of a software engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://blog.bandar-log.dev" # the base hostname & protocol for your site, e.g. http://example.com
